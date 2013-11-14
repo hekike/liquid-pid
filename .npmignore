@@ -1,5 +1,7 @@
-test
-docs
-example
-simulator
-node_modules
+.git*
+test/
+docs/
+example/
+simulator/
+node_modules/
+.DS_Store
