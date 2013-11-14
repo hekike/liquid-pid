@@ -7,8 +7,6 @@ Simulator, Plots and Tests are included.
 Let's go and brew something!
 
 https://npmjs.org/package/liquid-pid
-This is an [example link](http://example.com/ "With a Title").
-
 
 ## Installation
 
