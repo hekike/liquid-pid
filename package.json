@@ -13,6 +13,9 @@
     "chai": "~1.8.1"
   },
   "optionalDependencies": {},
+  "scripts": {
+    "test": "mocha test/*"
+  },
   "engines": {
     "node": "*"
   }
