@@ -1,6 +1,8 @@
 liquid-pid
 ==========
 
+![alt tag](https://api.travis-ci.org/hekike/liquid-pid.png)
+
 PID Controller in NodeJS for liquids (water, beer, etc.).
 Simulator, Plots and Tests are included. 
 
@@ -19,5 +21,8 @@ https://npmjs.org/package/liquid-pid
 Reach and hold 40 °C
 ![alt tag](https://raw.github.com/hekike/liquid-pid/master/docs/img/simulation1.png)
 
-// Tests, Examples, Docs, Browser simulations are coming soon (2013 nov)
+## Test
+Tests are included.
+
+// Examples, Docs, Browser simulations are coming soon (2013 nov)
 ------
