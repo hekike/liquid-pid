@@ -8,7 +8,10 @@
   },
   "main": "./lib/PIDController",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "chai": "~1.8.1"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
