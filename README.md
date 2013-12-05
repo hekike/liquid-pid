@@ -24,5 +24,5 @@ Reach and hold 40 °C
 ## Test
 Tests are included.
 
-// Examples, Docs, Browser simulations are coming soon (2013 nov)
+// Examples, Docs, Browser simulations are coming soon (end of 2013)
 ------
