@@ -22,7 +22,7 @@ Reach and hold 40 °C
 ![alt tag](https://raw.github.com/hekike/liquid-pid/master/docs/img/simulation1.png)
 
 ### Browser simulation
-http://hekike.github.io/liquid-pid
+http://hekike.github.io/liquid-pid/plot/app/
 
 ## Test
 Tests are included.

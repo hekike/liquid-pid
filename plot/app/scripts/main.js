@@ -49,8 +49,8 @@
     deltaT = (Pactual - (Takt - Ta) / Rth) * dt / (cWater * m);
     Takt += deltaT;
 
-    // Write every 30. status into the log file
-    if (t % 30 === 0) {
+    // Write every 60. status into the log file
+    if (t % 60 === 0) {
       labels.push(t / 60);
       dataT.push(Takt);
       dataPWM.push((Pactual / Pmax * 100));
@@ -62,16 +62,16 @@
     labels: labels,
     datasets: [
       {
-        fillColor: 'rgba(255,0,0,0.2)',
-        strokeColor: 'rgba(255,0,0,0.4)',
-        pointColor: 'rgba(255,0,0,0.4)',
+        fillColor : 'rgba(220,220,220,0.5)',
+        strokeColor : 'rgba(220,220,220,1)',
+        pointColor : 'rgba(220,220,220,1)',
         pointStrokeColor: '#fff',
         data: dataPWM
       },
       {
-        fillColor: 'rgba(0,0,255,0.2)',
-        strokeColor: 'rgba(0,0,255,0.4)',
-        pointColor: 'rgba(0,0,255,0.4)',
+        fillColor : 'rgba(151,187,205,0.5)',
+        strokeColor : 'rgba(151,187,205,1)',
+        pointColor : 'rgba(151,187,205,1)',
         pointStrokeColor: '#fff',
         data: dataT
       }
