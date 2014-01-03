@@ -21,8 +21,10 @@ https://npmjs.org/package/liquid-pid
 Reach and hold 40 °C
 ![alt tag](https://raw.github.com/hekike/liquid-pid/master/docs/img/simulation1.png)
 
+### Browser simulation
+http://hekike.github.io/liquid-pid
+
 ## Test
 Tests are included.
 
-// Examples, Docs, Browser simulations are coming soon (end of 2013)
 ------

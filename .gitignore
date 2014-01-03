@@ -1,4 +1,5 @@
 node_modules/
+plot/app/components
 *.log
 .DS_Store
 .idea
