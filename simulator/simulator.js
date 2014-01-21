@@ -40,9 +40,9 @@ exports.simulate = function (temp) {
   // Create a new controller
   controller = new PIDController({
     temp: {
-      ref: temp,                                          // Point temperature (This is the temp what you want to reach and hold) (°C)
-      Pmax: Pmax                                          // Max Power, this is the maximum output of your heater (W)
-    }
+      ref: temp                                           // Point temperature (This is the temp what you want to reach and hold) (°C)      
+    },
+    Pmax: Pmax                                            // Max Power, this is the maximum output of your heater (W)
   });
 
   // Simulate
