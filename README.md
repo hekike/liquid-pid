@@ -1,7 +1,7 @@
 liquid-pid
 ==========
 
-![alt tag](https://api.travis-ci.org/hekike/liquid-pid.png)
+[![Build Status](https://travis-ci.org/hekike/liquid-pid.png?branch=master)](https://travis-ci.org/hekike/liquid-pid)
 
 PID Controller in NodeJS for liquids (water, beer, etc.).
 Simulator, Plots and Tests are included. 
