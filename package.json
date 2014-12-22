@@ -2,7 +2,7 @@
   "author": "Péter Márton",
   "name": "liquid-pid",
   "description": "PID Controller in NodeJS for liquids (water, beer, etc.)",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "repository": {
     "url": "https://github.com/hekike/liquid-pid"
   },
@@ -12,11 +12,7 @@
     "mocha": "~1.14.0",
     "chai": "~1.8.1"
   },
-  "optionalDependencies": {},
   "scripts": {
     "test": "mocha test/*"
-  },
-  "engines": {
-    "node": "*"
   }
 }
